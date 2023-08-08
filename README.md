@@ -37,7 +37,7 @@ Execution of internal audits and generation of compliance reports
 This project marks a strategic partnership between SilverLine Security and the client company, aimed at elevating cybersecurity measures and compliance documentation to unparalleled standards. By enhancing security incident preparedness, improving monitoring and detection capabilities, and ensuring strict adherence to the PCI DSS framework, the project is set to fortify the client's cloud infrastructure and foster a robust security posture that safeguards critical data and enhances stakeholder trust.
 <br>
 
-## Conquista Code Team 
+## SilverLine Security Team 
 | Members | Profile Links |
 | --- | --- |
 | Natasha Siramarco | [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/natasha-siramarco/) [![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/nsiramarco) |
@@ -55,4 +55,5 @@ This project marks a strategic partnership between SilverLine Security and the c
 
 <br>
 
+Reviewed by Raheem Reed 08/08/2023
 Reviewed by Natasha Siramarco 08/07/2023
