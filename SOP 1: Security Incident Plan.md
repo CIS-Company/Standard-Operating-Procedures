@@ -51,6 +51,8 @@ Outcome Analysis: SilverLine Security shall meticulously analyze test results, p
 
 #### 2.3 Incident Response Procedures
 
+![Alt text](https://assets.digitalocean.com/articles/alligator/boo.svg "Routine Operational Flow Chart")
+
 - Incident Identification: The contracted team shall institute proactive measures for timely detection of adversarial activities through continuous monitoring,
 real-time alerts, and integration of threat intelligence.
 - Incident Classification: Well-defined criteria for categorizing incidents shall be established, factoring in severity, potential impact, and inherent risks.
