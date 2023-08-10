@@ -4,8 +4,6 @@
 
 **Author:** David Siebert.
 
-**Contributors:** Benjamin Hobbs, Natasha Siramarco, Raheem Reed, Nick Van Noort
-
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Security Incident Plan](#security-incident-plan)
