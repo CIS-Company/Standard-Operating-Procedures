@@ -1,81 +1,76 @@
 # Standard Operating Procedure (SOP) for Security Incident Plan
 
-## Table of Contents 
-[Introduction](#Introduction) 
+**Date:** Aug 09, 2023  
+**Author:** David Siebert  
+**Contributors:** Benjamin Hobbs, Natasha Siramarco, Raheem Reed, Nick Van Noort  
 
-[Security Incident Plan](#Security_Incident_Plan)  
+## Table of Contents
+1. Introduction
+2. Security Incident Plan
+   1. Objective
+   2. Testing Procedures
+   3. Incident Response Procedures
+3. Review and Revision
+4. Conclusion
+5. References
+6. Definitions
+7. Revision History
 
-[2.1 Objective](#2.1_Objective) 
+## 1. Introduction
 
-[2.2 Testing Procedures](#2.2_Testing_Procedures) 
+In line with the comprehensive cybersecurity enhancement efforts undertaken by SilverLine Security, this Standard Operating Procedure (SOP) establishes a procedural framework for crafting, executing, and overseeing an efficient Security Incident Plan. The central goal of this SOP revolves around ensuring the methodical and proficient testing of security controls, proactive identification of adversarial activities, prompt incident response, and effective mitigation within the cloud infrastructure of the client company.
 
-[2.3 Incident Response Procedures](#2.3_Incident_Response_Procedures) 
+## 2. Security Incident Plan
 
-[Review and Revision](#Review_and_Revision) 
+### 2.1 Objective
 
-[Conclusion](#Conclusion) 
+The Security Incident Plan is a crucial component of SilverLine Security's mission to bolster the cybersecurity posture of the client company. By embracing the NIST framework & governance, we effectively manage evolving cybersecurity risks. Each function plays a critical role in incident management: IDENTIFY and PROTECT outcomes work towards preventing and preparing for cybersecurity incidents, whereas DETECT, RESPOND, and RECOVER outcomes contribute to the discovery and management of such incidents.
 
+### 2.2 Testing Procedures
 
-<a name="Introduction"/>
+#### Define Use Case and Scope Definition
 
-#### 1. Introduction
+The contracted team shall precisely define the scope of security controls and monitoring solutions subject to meticulous testing within the cloud infrastructure.
 
-As part of the comprehensive cybersecurity enhancement efforts conducted by the contracted team at SilverLine Security, this Standard Operating Procedure (SOP) 
-delineates the procedural framework for the development, execution, and management of an effective Security Incident Plan. The primary objective of this SOP is
-to ensure the systematic and proficient testing of security controls, proactive detection of adversarial activities, timely incident response, and successful mitigation 
-within the cloud infrastructure of the client company.
+#### Defined Target Profile
 
-<a name="Security_Incident_Plan"/>
+SilverLine Security will define network configuration and access points which malicious intent may interdict on the security and integrity of our operations.
 
-#### 2. Security Incident Plan
+#### Test Plan Creation
 
-<a name="Objective"/>
+SilverLine Security experts shall craft a comprehensive test plan, outlining methodologies, procedures, and expected outcomes for each security control and monitoring solution.
 
-#### 2.1 Objective
+#### Testing Execution
 
-The Security Incident Plan is a crucial component of SilverLine Security's mission to bolster the cybersecurity posture of the client company. This plan aims to 
-proactively address potential security breaches, assess control effectiveness, and ensure a swift, coordinated response to mitigate security risks.
+The contracted team shall execute the test plan, simulating a spectrum of adversarial activities to assess the efficacy of controls and solutions.
 
-<a name="2.2_Testing_Procedures"/>
+#### Outcome Analysis
 
-#### 2.2 Testing Procedures
+SilverLine Security shall meticulously analyze test results, pinpointing vulnerabilities and gaps that require prompt remediation.
 
-- Scope Definition: The contracted team shall precisely define the scope of security controls and monitoring solutions subject to meticulous testing within the cloud 
-infrastructure.
-- Test Plan Creation: SilverLine Security experts shall craft a comprehensive test plan, outlining methodologies, procedures, and expected outcomes for each security
-control and monitoring solution.
-- Testing Execution: The contracted team shall execute the test plan, simulating a spectrum of adversarial activities to assess the efficacy of controls and solutions.
-Outcome Analysis: SilverLine Security shall meticulously analyze test results, pinpointing vulnerabilities and gaps that require prompt remediation.
+#### AWS Lambda Integration Testing
 
-<a name="2.3_Incident_Response_Procedures"/>
+Testing the integration of AWS Lambda within our incident response plan involves several critical steps. These include simulating real-world scenarios to evaluate Lambda functions' responses to security events, conducting data injection tests to identify vulnerabilities, emulating different attack vectors to assess their resilience, examining how Lambda functions interact with other security controls, monitoring network traffic during executions, scrutinizing dependencies for vulnerabilities, evaluating scalability and performance under varying loads, analyzing outcomes to pinpoint vulnerabilities, enabling email notifications to the SilverLine Security team for real-time alerts, generating comprehensive documentation of methodologies and outcomes, and proactively enhancing the incident response plan and overall cloud infrastructure security.
 
-#### 2.3 Incident Response Procedures
+#### S3 Bucket Testing
 
-- Incident Identification: The contracted team shall institute proactive measures for timely detection of adversarial activities through continuous monitoring,
-real-time alerts, and integration of threat intelligence.
-- Incident Classification: Well-defined criteria for categorizing incidents shall be established, factoring in severity, potential impact, and inherent risks.
-- Incident Response Team Activation: SilverLine Security shall outline roles, responsibilities, and communication protocols for the incident response team, ensuring
-a cohesive and efficient approach.
-- Containment and Eradication: The SOP shall detail the orchestrated steps for containing and eradicating incidents, thereby preventing escalation and unauthorized access.
-- Communication: Effective guidelines for both internal and external communication during and after incidents shall be established, guaranteeing clear, concise, and
-appropriate information dissemination.
-- Investigation and Documentation: The SOP shall outline the systematic investigation process, coupled with meticulous documentation of findings, actions taken, and lessons
-learned.
-- Recovery and Remediation: Procedures for system recovery, data restoration, and validation of restored security controls and monitoring solutions shall be methodically
- articulated.
+We extend our evaluation to the S3 bucket, scrutinizing access controls, encryption mechanisms, and monitoring solutions. Our assessment focuses on ensuring the confidentiality, integrity, and availability of data while maintaining compliance with security policies.
 
-<a name="Review_and_Revision"/>
+#### CloudWatch Testing
 
-#### 3. Review and Revision
+The evaluation of CloudWatch encompasses a meticulous review of its monitoring configuration, alerting rules, and integration with our incident response procedures. This process ensures its efficacy in promptly detecting anomalies and potential security breaches.
 
-SilverLine Security shall ensure that this SOP undergoes periodic review and prudent revision to align with evolving cybersecurity dynamics. Any modifications to the SOP shall be promptly communicated to relevant stakeholders, accompanied by requisite training interventions.
+#### CloudTrail Testing
 
-<a name="Conclusion"/>
+Our scrutiny of CloudTrail centers on its tracking and logging capabilities for API activity within the cloud environment. This step is crucial to ensure that it captures all relevant information necessary for thorough forensic analysis.
 
-#### 4. Conclusion
+#### Wazah Implementation Testing
 
-SilverLine Security, through the diligent adherence to this SOP, aspires to fortify the cloud infrastructure of the client company against adversarial activities. By adhering to the delineated procedures, SilverLine Security endeavors to enhance incident detection, response, and mitigation, thus advancing the overarching cybersecurity goals of the client company.
+We conduct a thorough examination of the Wazah implementation, verifying its configuration for threat detection, incident correlation, and response automation. This assessment ensures its seamless integration with our incident response plan and enhances our overall security posture.
 
+### 2.3 Incident Response Procedures
 
-Reviewed by Natasha Siramarco 08/07/2023, ChatGPT assisted
+Incident Identification (NIST): The contracted team shall institute proactive measures for timely detection of adversarial activities through continuous monitoring, real-time alerts, and integration of threat intelligence.
+
+... [continues]
 
