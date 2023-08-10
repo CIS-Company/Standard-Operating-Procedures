@@ -278,7 +278,6 @@ In conclusion, the Standard Operating Procedure (SOP) for the Security Incident 
 
 - Public Draft: The NIST Cybersecurity Framework 2.0
   [https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.ipd.pdf](https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.ipd.pdf)
-
 - National Institute of Standards and Technology
 - Open.ai.com
 
