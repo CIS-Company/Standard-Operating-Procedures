@@ -9,14 +9,18 @@
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Security Incident Plan](#security-incident-plan)
+
    2.1 [Objective](#objective)
+
    2.2 [Testing Procedures](#testing-procedures)
+
    2.3 [Incident Response Procedures](#incident-response-procedures)
-3. [Review and Revision](#review-and-revision)
-4. [Conclusion](#conclusion)
-5. [References](#references)
-6. [Definitions](#definitions)
-7. [Revision History](#revision-history)
+
+4. [Review and Revision](#review-and-revision)
+5. [Conclusion](#conclusion)
+6. [References](#references)
+7. [Definitions](#definitions)
+8. [Revision History](#revision-history)
 
 
 ## 1. Introduction
